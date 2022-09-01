@@ -1,3 +1,4 @@
+-- INICIO ATIVIDADE 01
 CREATE DATABASE db_rh_generation;
 
 USE db_rh_generation;
@@ -32,6 +33,8 @@ SELECT * FROM tb_colaboradores WHERE salario > 2000;
 SELECT * FROM tb_colaboradores WHERE salario < 2000;
 
 UPDATE tb_colaboradores SET salario = 10000, cargo = "Dev Sr" WHERE id = 2;
+
+-- INICIO ATIVIDADE 02
 
 CREATE DATABASE db_ecommerce;
 
@@ -76,6 +79,8 @@ SELECT * FROM tb_produtos WHERE preco > 500;
 SELECT * FROM tb_produtos WHERE preco < 500;
 
 UPDATE tb_produtos SET preco = 25, quantidade = 9735 WHERE id = 8;
+
+-- INICIO ATIVIDADE 03
 
 CREATE DATABASE db_escola;
 
